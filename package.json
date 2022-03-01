@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "version": "0.0.1",
+  "description": "testing threejs, GLTFLoader and parcel",
+  "author": "jag",
+  "license": "ISC",
+  "name": "parcel-GLTFloader-test",
+  "source": "index.html",
+  "staticFiles": {
+    "staticOutPath": "./assets/models",
+    "staticPath": "./assets/models"
+  },
+  "scripts": {
+    "start": "parcel serve index.html --open",
+    "build": "parcel build index.html --public-url . --dist-dir prodDist"
+  },
+  "devDependencies": {
+    "parcel": "^2.2.1",
+    "parcel-reporter-static-files-copy": "^1.3.4"
+  },
+  "dependencies": {
+    "three": "^0.137.5"
+  }
+}
