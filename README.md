@@ -1,6 +1,6 @@
 # parcel-GLTFloader-test
 
-Shows a problem with loading a .glb file using GLTFloader when bundled with Parcel 2.
+Testing a parcel build of an app that uses threejs and GLTFloader to read a .glb file.
 
 ### Install
 `npm install`
