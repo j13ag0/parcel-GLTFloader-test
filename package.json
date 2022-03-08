@@ -12,7 +12,8 @@
   },
   "scripts": {
     "start": "parcel serve index.html --open",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "clean": "rm -rf dist"
   },
   "devDependencies": {
     "parcel": "^2.2.1",
